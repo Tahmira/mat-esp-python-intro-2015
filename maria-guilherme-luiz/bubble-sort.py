@@ -8,3 +8,5 @@ for i in range(0, N - 1, 1): # i variando de 0 ate N - 1 exclusive de 1 em 1, se
             cartas[i] = cartas[j] # colocar a carta[j] em carta[i], para mover a carta[j] para a posicao da carta[i]
             cartas[j] = temp # colocar temp em carta[j], para mover a carta[i] que esta em temp para a posicao da carta[j]
 print("Lista em ordem crescente", cartas) # mostra escrito Lista em ordem crescente e depois mostra a lista das cartas ordenadas em ordem crescente
+print ("Cinco menores valores", cartas[0: 5: 1])
+print ("cinco maiores valores", cartas[15: 20: 1])
